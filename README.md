@@ -1,19 +1,43 @@
-## Foundry
+## Foundry 
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
 ## Documentation
 
 https://book.getfoundry.sh/
 
-## Usage
+## Intermediate
+
+ ***Test error***
+ 
+***vm.expectRevert***
+
+***require error message***
+
+***custom error***
+
+***label assertions***
+
+ ***Test event (expectEmit)***
+ 
+ ***Test time (Auction.sol)***
+ 
+ ****Test send eth (Wallet.sol) - hoax, deal***
+
+ 
+
+Checking the Wallet balance 
+
+![Screenshot 2024-05-20 141201](https://github.com/DCVglobalnetwork/Foundry-Testing-/assets/105791829/075ec55f-a315-453d-88fd-d5ceb90d228d)
+
+
+
+ ****Test send eth (Wallet.sol) - hoax, deal***
+ 
+![Screenshot 2024-05-20 143038](https://github.com/DCVglobalnetwork/Foundry-Testing-/assets/105791829/d145dd34-89c4-4c24-8d53-631bedac9ab3)
+
+
 
 ### Build
 
@@ -27,35 +51,18 @@ $ forge build
 $ forge test
 ```
 
+test setup, ok, fail
+match
+verbose
+
 ### Format
 
 ```shell
 $ forge fmt
 ```
 
-### Gas Snapshots
 
-```shell
-$ forge snapshot
-```
 
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
 
 ### Help
 
