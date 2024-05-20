@@ -1,11 +1,39 @@
 ## Foundry 
 
+### Install
 
+```shell
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+```
+
+### Init
+
+```shell
+forge init
+```
+
+### Build
+
+```shell
+$ forge build
+```
+
+### Test
+
+```shell
+$ forge test
+```
+
+test setup, ok, fail
+match
+verbose
 
 
 ## Documentation
 
 https://book.getfoundry.sh/
+
 
 ## Intermediate
 
@@ -27,7 +55,7 @@ https://book.getfoundry.sh/
 
  
 
-Checking the Wallet balance 
+***Checking for ETH balance*** 
 
 ![Screenshot 2024-05-20 141201](https://github.com/DCVglobalnetwork/Foundry-Testing-/assets/105791829/075ec55f-a315-453d-88fd-d5ceb90d228d)
 
@@ -38,31 +66,11 @@ Checking the Wallet balance
 ![Screenshot 2024-05-20 143038](https://github.com/DCVglobalnetwork/Foundry-Testing-/assets/105791829/d145dd34-89c4-4c24-8d53-631bedac9ab3)
 
 
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-test setup, ok, fail
-match
-verbose
-
 ### Format
 
 ```shell
 $ forge fmt
 ```
-
-
-
 
 ### Help
 
@@ -71,3 +79,8 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+# HAPPY CODING 
+
+
+
